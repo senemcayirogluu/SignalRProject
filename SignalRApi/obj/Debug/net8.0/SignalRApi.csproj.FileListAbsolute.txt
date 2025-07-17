@@ -144,3 +144,6 @@ C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\obj\Debug\net8.0\refint\S
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\obj\Debug\net8.0\SignalRApi.pdb
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\obj\Debug\net8.0\SignalRApi.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\obj\Debug\net8.0\ref\SignalRApi.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.DtoLayer.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalR.DtoLayer.pdb
