@@ -222,6 +222,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalRApi.Controllers.CategoryController",
+    "Method": "CategoryCount",
+    "RelativePath": "api/Category/CategoryCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRApi.Controllers.ContactController",
     "Method": "ContactList",
     "RelativePath": "api/Contact",

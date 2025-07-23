@@ -303,6 +303,18 @@
         }
       }
     },
+    "/api/Category/CategoryCount": {
+      "get": {
+        "tags": [
+          "Category"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Category/{id}": {
       "delete": {
         "tags": [
