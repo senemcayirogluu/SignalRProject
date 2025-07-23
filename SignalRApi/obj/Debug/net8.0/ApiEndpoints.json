@@ -529,6 +529,16 @@
   },
   {
     "ContainingType": "SignalRApi.Controllers.ProductController",
+    "Method": "ProductCount",
+    "RelativePath": "api/Product/ProductCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.ProductController",
     "Method": "ProductListWithCategory",
     "RelativePath": "api/Product/ProductListWithCategory",
     "HttpMethod": "GET",
