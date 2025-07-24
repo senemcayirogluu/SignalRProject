@@ -54,6 +54,41 @@ namespace SignalRApi.Controllers
 			return Ok(count);
 		}
 
+		[HttpGet("ProductCountByCategoryNameHamburger")]
+		public IActionResult ProductCountByCategoryNameHamburger()
+		{
+			var count = _productService.TProductCountByCategoryNameHamburger();
+			return Ok(count);
+		}
+
+		[HttpGet("ProductCountByCategoryNameDrink")]
+		public IActionResult ProductCountByCategoryNameDrink()
+		{
+			var count = _productService.TProductCountByCategoryNameDrink();
+			return Ok(count);
+		}
+
+		[HttpGet("ProductPriceAverage")]
+		public IActionResult ProductPriceAverage()
+		{
+			var average = _productService.TProductPriceAverage();
+			return Ok(average);
+		}
+
+		[HttpGet("ProductNameByMaxPrice")]
+		public IActionResult ProductNameByMaxPrice()
+		{
+			var name = _productService.TProductNameByMaxPrice();
+			return Ok(name);
+		}
+
+		[HttpGet("ProductNameByMinPrice")]
+		public IActionResult ProductNameByMinPrice()
+		{
+			var name = _productService.TProductNameByMinPrice();
+			return Ok(name);
+		}
+
 		[HttpPost]
 		public IActionResult CreateProduct(CreateProductDto createProductDto)
 		{

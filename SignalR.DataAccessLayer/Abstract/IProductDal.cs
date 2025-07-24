@@ -11,5 +11,10 @@ namespace SignalR.DataAccessLayer.Abstract
 	{
 		List<Product> GetProductsWithCategories();
 		public int ProductCount();
+		public int ProductCountByCategoryNameHamburger();
+		public int ProductCountByCategoryNameDrink();
+		public decimal ProductPriceAverage();
+		public string ProductNameByMaxPrice();
+		public string ProductNameByMinPrice();
 	}
 }
