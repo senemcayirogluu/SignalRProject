@@ -549,6 +549,16 @@
   },
   {
     "ContainingType": "SignalRApi.Controllers.ProductController",
+    "Method": "AvgProductPriceByHamburger",
+    "RelativePath": "api/Product/AvgProductPriceByHamburger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.ProductController",
     "Method": "ProductCount",
     "RelativePath": "api/Product/ProductCount",
     "HttpMethod": "GET",

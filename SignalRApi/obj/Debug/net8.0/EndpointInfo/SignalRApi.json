@@ -879,6 +879,18 @@
         }
       }
     },
+    "/api/Product/AvgProductPriceByHamburger": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Product/{id}": {
       "delete": {
         "tags": [
