@@ -474,6 +474,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalRApi.Controllers.MenuTableController",
+    "Method": "MenuTableCount",
+    "RelativePath": "api/MenuTable/MenuTableCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRApi.Controllers.MoneyCasesController",
     "Method": "TotalMoneyCaseAmount",
     "RelativePath": "api/MoneyCases/TotalMoneyCaseAmount",
