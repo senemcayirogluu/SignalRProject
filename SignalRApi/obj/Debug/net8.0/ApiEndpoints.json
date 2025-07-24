@@ -505,6 +505,16 @@
   },
   {
     "ContainingType": "SignalRApi.Controllers.OrdersController",
+    "Method": "TodayTotalPrice",
+    "RelativePath": "api/Orders/TodayTotalPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.OrdersController",
     "Method": "TotalOrderCount",
     "RelativePath": "api/Orders/TotalOrderCount",
     "HttpMethod": "GET",
