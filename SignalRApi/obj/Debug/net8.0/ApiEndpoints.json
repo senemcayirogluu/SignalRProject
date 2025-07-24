@@ -474,6 +474,36 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalRApi.Controllers.OrdersController",
+    "Method": "ActiveOrderCount",
+    "RelativePath": "api/Orders/ActiveOrderCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.OrdersController",
+    "Method": "LastOrderPrice",
+    "RelativePath": "api/Orders/LastOrderPrice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.OrdersController",
+    "Method": "TotalOrderCount",
+    "RelativePath": "api/Orders/TotalOrderCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRApi.Controllers.ProductController",
     "Method": "ProductList",
     "RelativePath": "api/Product",
