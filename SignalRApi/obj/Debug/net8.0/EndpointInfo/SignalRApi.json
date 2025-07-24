@@ -725,6 +725,18 @@
         }
       }
     },
+    "/api/MoneyCases/TotalMoneyCaseAmount": {
+      "get": {
+        "tags": [
+          "MoneyCases"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Orders/TotalOrderCount": {
       "get": {
         "tags": [
