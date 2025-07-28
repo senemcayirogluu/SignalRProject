@@ -2,7 +2,9 @@ C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\ne
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.DataAccessLayer.runtimeconfig.json
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.DataAccessLayer.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.DataAccessLayer.pdb
+C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.DtoLayer.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.EntityLayer.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.DtoLayer.pdb
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.EntityLayer.pdb
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net8.0\SignalR.DataAccessLayer.csproj.AssemblyReference.cache
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net8.0\SignalR.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,5 +18,3 @@ C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\ne
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net8.0\SignalR.DataAccessLayer.pdb
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net8.0\SignalR.DataAccessLayer.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\obj\Debug\net8.0\ref\SignalR.DataAccessLayer.dll
-C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.DtoLayer.dll
-C:\Users\LENOVO\source\repos\SignalRProject\SignalR.DataAccessLayer\bin\Debug\net8.0\SignalR.DtoLayer.pdb

@@ -16,7 +16,19 @@ namespace SignalRWebUI.Dtos.ContactDtos
 		[JsonProperty("mail")]
 		public string Mail { get; set; }
 
+		[JsonProperty("footerTitle")]
+		public string FooterTitle { get; set; }
+
 		[JsonProperty("footerDescription")]
 		public string FooterDescription { get; set; }
+
+		[JsonProperty("openDays")]
+		public string OpenDays { get; set; }
+
+		[JsonProperty("openDaysDescription")]
+		public string OpenDaysDescription { get; set; }
+
+		[JsonProperty("openHours")]
+		public string OpenHours { get; set; }
 	}
 }

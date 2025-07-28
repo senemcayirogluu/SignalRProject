@@ -1322,7 +1322,23 @@
             "type": "string",
             "nullable": true
           },
+          "footerTitle": {
+            "type": "string",
+            "nullable": true
+          },
           "footerDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "openDays": {
+            "type": "string",
+            "nullable": true
+          },
+          "openDaysDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "openHours": {
             "type": "string",
             "nullable": true
           }
@@ -1541,7 +1557,23 @@
             "type": "string",
             "nullable": true
           },
+          "footerTitle": {
+            "type": "string",
+            "nullable": true
+          },
           "footerDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "openDays": {
+            "type": "string",
+            "nullable": true
+          },
+          "openDaysDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "openHours": {
             "type": "string",
             "nullable": true
           }
