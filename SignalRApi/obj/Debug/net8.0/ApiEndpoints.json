@@ -90,6 +90,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalRApi.Controllers.BasketsController",
+    "Method": "BasketListByMenuTableWithProductName",
+    "RelativePath": "api/Baskets/BasketListByMenuTableWithProductName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRApi.Controllers.BookingController",
     "Method": "BookingList",
     "RelativePath": "api/Booking",
