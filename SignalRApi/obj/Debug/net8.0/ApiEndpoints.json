@@ -91,6 +91,22 @@
   },
   {
     "ContainingType": "SignalRApi.Controllers.BasketsController",
+    "Method": "CreateBasket",
+    "RelativePath": "api/Baskets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBasketDto",
+        "Type": "SignalR.DtoLayer.BasketDto.CreateBasketDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.BasketsController",
     "Method": "BasketListByMenuTableWithProductName",
     "RelativePath": "api/Baskets/BasketListByMenuTableWithProductName",
     "HttpMethod": "GET",

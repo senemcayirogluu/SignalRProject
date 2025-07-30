@@ -55,7 +55,7 @@
                                         <h6>
                                                 @item.Price₺
                                         </h6>
-                                        <a href="#" onclick="showproductid(@item.ProductID, `@item.ProductName`)">
+                                        <a href="#" onclick="showproductid(@item.ProductID, `@item.ProductName`, @item.Price)">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                                             <g>
                                             <g>
@@ -132,18 +132,32 @@
     @await Component.InvokeAsync("_UILayoutScriptComponentPartial")
 
     <script>
-        function showproductid(value, name) {
-           var ProductID = value;
-           var ProductName = name;
+        function showproductid(id, name, price) {
+           var productName = name;
+
            $.ajax ({
-               type:'post',
-               data: { item: ProductID },
-               contentType: 'json',
+               type:'POST',
+               data: JSON.stringify({ 
+                   ProductID: id,
+                   Price: price,
+                   Count:1,
+                   TotalPrice: price,
+                   MenuTableID: 4
+               }),
+			   url: "/Menu/AddBasket",
+               contentType: 'application/json',
                success: function () {
                       Swal.fire({
-                       title: ProductName,
-                       text: "Ürün sepete eklendi!",
+                       title: productName,
+                       text: "Ürün sepete eklendi! Fiyat: " + price,
                        icon: "success"
+                      });
+               },
+               error: function () {
+                      Swal.fire({
+                       title: productName,
+                       text: "Ürün sepete eklenemedi!",
+                       icon: "error"
                       });
                }
            });
