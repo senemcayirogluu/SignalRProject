@@ -15,5 +15,11 @@ namespace SignalR.DataAccessLayer.EntityFramework
 		public EfNotificationDal(SignalRContext context) : base(context)
 		{
 		}
+
+		public int NotificationCountByFalseStatus()
+		{
+			using var context = new SignalRContext();
+			return context.Notifications.Count(x => x.Status == false);
+		}
 	}
 }

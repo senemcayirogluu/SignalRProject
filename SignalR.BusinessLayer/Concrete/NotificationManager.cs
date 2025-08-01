@@ -38,6 +38,11 @@ namespace SignalR.BusinessLayer.Concrete
 			return _notificationDal.GetListAll();
 		}
 
+		public int TNotificationCountByFalseStatus()
+		{
+			return _notificationDal.NotificationCountByFalseStatus();
+		}
+
 		public void TUpdate(Notification entity)
 		{
 			_notificationDal.Update(entity);
