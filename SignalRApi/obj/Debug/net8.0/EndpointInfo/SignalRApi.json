@@ -869,6 +869,18 @@
         }
       }
     },
+    "/api/Notification/GetAllNotificationByFalseStatus": {
+      "get": {
+        "tags": [
+          "Notification"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Orders/TotalOrderCount": {
       "get": {
         "tags": [

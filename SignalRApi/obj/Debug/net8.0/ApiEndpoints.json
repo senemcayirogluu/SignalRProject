@@ -569,6 +569,16 @@
   },
   {
     "ContainingType": "SignalRApi.Controllers.NotificationController",
+    "Method": "GetAllNotificationByFalseStatus",
+    "RelativePath": "api/Notification/GetAllNotificationByFalseStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.NotificationController",
     "Method": "NotificationCountByFalseStatus",
     "RelativePath": "api/Notification/NotificationCountByFalseStatus",
     "HttpMethod": "GET",

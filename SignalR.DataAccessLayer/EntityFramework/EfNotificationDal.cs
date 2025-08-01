@@ -16,6 +16,12 @@ namespace SignalR.DataAccessLayer.EntityFramework
 		{
 		}
 
+		public List<Notification> GetAllNotificationByFalseStatus()
+		{
+			using var context = new SignalRContext();
+			return context.Notifications.Where(x => x.Status == false).ToList();
+		}
+
 		public int NotificationCountByFalseStatus()
 		{
 			using var context = new SignalRContext();
