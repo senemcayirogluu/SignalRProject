@@ -558,6 +558,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalRApi.Controllers.NotificationController",
+    "Method": "NotificationList",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRApi.Controllers.OrdersController",
     "Method": "ActiveOrderCount",
     "RelativePath": "api/Orders/ActiveOrderCount",
