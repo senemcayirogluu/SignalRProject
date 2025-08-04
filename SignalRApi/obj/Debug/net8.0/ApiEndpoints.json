@@ -539,6 +539,80 @@
   },
   {
     "ContainingType": "SignalRApi.Controllers.MenuTableController",
+    "Method": "MenuTableList",
+    "RelativePath": "api/MenuTable",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.MenuTableController",
+    "Method": "CreateMenuTable",
+    "RelativePath": "api/MenuTable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createMenuTableDto",
+        "Type": "SignalR.DtoLayer.MenuTableDto.CreateMenuTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.MenuTableController",
+    "Method": "UpdateMenuTable",
+    "RelativePath": "api/MenuTable",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateMenuTableDto",
+        "Type": "SignalR.DtoLayer.MenuTableDto.UpdateMenuTableDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.MenuTableController",
+    "Method": "DeleteMenuTable",
+    "RelativePath": "api/MenuTable/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.MenuTableController",
+    "Method": "GetMenuTable",
+    "RelativePath": "api/MenuTable/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.MenuTableController",
     "Method": "MenuTableCount",
     "RelativePath": "api/MenuTable/MenuTableCount",
     "HttpMethod": "GET",
