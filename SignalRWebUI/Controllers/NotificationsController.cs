@@ -58,6 +58,7 @@ namespace SignalRWebUI.Controllers
 			return View();
 		}
 
+		[HttpGet]
 		public async Task<IActionResult> UpdateNotification(int id)
 		{
 			var client = _httpClientFactory.CreateClient();
@@ -70,6 +71,7 @@ namespace SignalRWebUI.Controllers
 			}
 			return View();
 		}
+
 		[HttpPost]
 		public async Task<IActionResult> UpdateNotification(UpdateNotificationDto updateNotificationDto)
 		{
@@ -83,5 +85,20 @@ namespace SignalRWebUI.Controllers
 			}
 			return View();
 		}
+
+		public async Task<IActionResult> NotificationChangeStatusToFalse(int id)
+		{
+			var client = _httpClientFactory.CreateClient();
+			var responseMessage = await client.GetAsync($"https://localhost:7122/api/Notification/NotificationChangeStatusToFalse/{id}");
+			return RedirectToAction("Index");
+		}
+
+		public async Task<IActionResult> NotificationChangeStatusToTrue(int id)
+		{
+			var client = _httpClientFactory.CreateClient();
+			var responseMessage = await client.GetAsync($"https://localhost:7122/api/Notification/NotificationChangeStatusToTrue/{id}");
+			return RedirectToAction("Index");
+		}
+
 	}
 }

@@ -643,6 +643,38 @@
   },
   {
     "ContainingType": "SignalRApi.Controllers.NotificationController",
+    "Method": "NotificationChangeStatusToFalse",
+    "RelativePath": "api/Notification/NotificationChangeStatusToFalse/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.NotificationController",
+    "Method": "NotificationChangeStatusToTrue",
+    "RelativePath": "api/Notification/NotificationChangeStatusToTrue/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.NotificationController",
     "Method": "NotificationCountByFalseStatus",
     "RelativePath": "api/Notification/NotificationCountByFalseStatus",
     "HttpMethod": "GET",
