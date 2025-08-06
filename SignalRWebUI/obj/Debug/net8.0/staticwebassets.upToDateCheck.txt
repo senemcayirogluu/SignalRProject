@@ -32,6 +32,7 @@ wwwroot\feane-1.0.0\js\bootstrap.js
 wwwroot\feane-1.0.0\js\custom.js
 wwwroot\feane-1.0.0\js\jquery-3.4.1.min.js
 wwwroot\feane-1.0.0\menu.html
+wwwroot\js\chat.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
