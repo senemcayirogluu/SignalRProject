@@ -1,14 +1,14 @@
-﻿@model RegisterDto
+﻿@model LoginDto
 
 @{
-	Layout = null;
+    Layout = null;
 }
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Lavinia Kayıt Olma</title>
+	<title>Lavinia Giriş Yapma</title>
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- Font-->
@@ -23,26 +23,16 @@
 				<img src="~/colorlib-regform-32/images/Sauce1.jpg" alt="form" style="height: 99.05%; width: 484px">
 			</div>
 			<form class="form-detail" method="post">
-				<h2>Yeni Kullanıcı Kaydı</h2>
-				<div class="form-row">
-					<input type="text" id="full-name" class="input-text" placeholder="Adınız" required asp-for="Name">
-				</div>
-				<div class="form-row">
-					<input type="text" id="full-name" class="input-text" placeholder="Soyadınız" required asp-for="Surname">
-				</div>
+				<h2>Kullanıcı Girişi</h2>
 				<div class="form-row">
 					<input type="text" id="full-name" class="input-text" placeholder="Kullanıcı Adınız" required asp-for="Username">
 				</div>
 				<div class="form-row">
-					<input type="text" id="your-email" class="input-text" placeholder="Email Adresiniz" required asp-for="Mail" pattern="[^@@]+@@[^@@]+.[a-zA-Z]{2,6}">
-				</div>
-				<div class="form-row">
 					<input type="password" id="password" class="input-text" placeholder="Şifreniz" required asp-for="Password">
 				</div>
-				<button class="btn btn-warning">Kaydol</button>
+				<button class="btn btn-warning">Giriş Yap</button>
 			</form>
 		</div>
 	</div>
-</body> 
+</body>
 </html>
-

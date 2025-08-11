@@ -35,14 +35,6 @@ namespace SignalRWebUI.Controllers
 			{
 				return RedirectToAction("Index", "Login");
 			}
-			if (!result.Succeeded)
-			{
-				foreach (var error in result.Errors)
-				{
-					ModelState.AddModelError("", error.Description);
-				}
-				return View(registerDto);
-			}
 			return View();
 		}
 	}
