@@ -12,7 +12,7 @@ using SignalR.DataAccessLayer.Concrete;
 namespace SignalR.DataAccessLayer.Migrations
 {
     [DbContext(typeof(SignalRContext))]
-    [Migration("20250807102753_mig_add_identity")]
+    [Migration("20250808142108_mig_add_identity")]
     partial class mig_add_identity
     {
         /// <inheritdoc />
