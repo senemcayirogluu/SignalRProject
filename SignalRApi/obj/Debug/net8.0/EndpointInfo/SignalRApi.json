@@ -1948,19 +1948,19 @@
             "type": "string",
             "nullable": true
           },
-          "description1": {
-            "type": "string",
-            "nullable": true
-          },
           "title2": {
             "type": "string",
             "nullable": true
           },
-          "description2": {
+          "title3": {
             "type": "string",
             "nullable": true
           },
-          "title3": {
+          "description1": {
+            "type": "string",
+            "nullable": true
+          },
+          "description2": {
             "type": "string",
             "nullable": true
           },
@@ -2248,19 +2248,19 @@
             "type": "string",
             "nullable": true
           },
-          "description1": {
-            "type": "string",
-            "nullable": true
-          },
           "title2": {
             "type": "string",
             "nullable": true
           },
-          "description2": {
+          "title3": {
             "type": "string",
             "nullable": true
           },
-          "title3": {
+          "description1": {
+            "type": "string",
+            "nullable": true
+          },
+          "description2": {
             "type": "string",
             "nullable": true
           },
