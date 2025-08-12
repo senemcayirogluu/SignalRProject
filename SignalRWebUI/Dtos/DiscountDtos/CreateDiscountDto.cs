@@ -15,5 +15,8 @@ namespace SignalRWebUI.Dtos.DiscountDto
 
 		[JsonProperty("imageUrl")]
 		public string ImageUrl { get; set; }
+
+		[JsonProperty("status")]
+		public bool Status { get; set; }
 	}
 }

@@ -15,5 +15,21 @@ namespace SignalR.DataAccessLayer.EntityFramework
 		public EfDiscountDal(SignalRContext context) : base(context)
 		{
 		}
+
+		public void DiscountChangeStatusToFalse(int id)
+		{
+			using var context = new SignalRContext();
+			var discount = context.Discounts.Find(id);
+			discount.Status = false;
+			context.SaveChanges();
+		}
+
+		public void DiscountChangeStatusToTrue(int id)
+		{
+			using var context = new SignalRContext();
+			var discount = context.Discounts.Find(id);
+			discount.Status = true;
+			context.SaveChanges();
+		}
 	}
 }
