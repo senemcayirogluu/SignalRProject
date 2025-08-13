@@ -11,5 +11,6 @@ namespace SignalR.DataAccessLayer.Abstract
 	{
 		void DiscountChangeStatusToTrue(int id);
 		void DiscountChangeStatusToFalse(int id);
+		List<Discount> GetListByStatusTrue();
 	}
 }

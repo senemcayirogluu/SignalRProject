@@ -799,6 +799,18 @@
         }
       }
     },
+    "/api/Discount/GetListByStatusTrue": {
+      "get": {
+        "tags": [
+          "Discount"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/MenuTable/MenuTableCount": {
       "get": {
         "tags": [

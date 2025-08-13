@@ -528,6 +528,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalRApi.Controllers.DiscountController",
+    "Method": "GetListByStatusTrue",
+    "RelativePath": "api/Discount/GetListByStatusTrue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRApi.Controllers.MenuTableController",
     "Method": "MenuTableList",
     "RelativePath": "api/MenuTable",
