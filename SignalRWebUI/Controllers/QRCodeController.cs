@@ -2,6 +2,7 @@
 using QRCoder;
 using System.Drawing;
 using System.Drawing.Imaging;
+using ZXing;
 
 namespace SignalRWebUI.Controllers
 {
@@ -27,6 +28,31 @@ namespace SignalRWebUI.Controllers
 				}
 			}
 			return View();
+		}
+
+		[HttpPost]
+		public IActionResult DecodeQRCode(IFormFile file)
+		{
+			if (file == null || file.Length == 0)
+				return BadRequest("Bir dosya yükleyin!");
+
+			using (var stream = file.OpenReadStream())
+			using (var bitmap = new Bitmap(stream))
+			{
+				var reader = new BarcodeReaderGeneric();
+				var result = reader.Decode(bitmap);
+
+				if (result != null)
+				{
+					ViewBag.DecodedText = result.Text; 
+					return View("Index");
+				}
+				else
+				{
+					ModelState.AddModelError("", "QR kod çözülemedi!");
+					return View("Index");
+				}
+			}
 		}
 	}
 }

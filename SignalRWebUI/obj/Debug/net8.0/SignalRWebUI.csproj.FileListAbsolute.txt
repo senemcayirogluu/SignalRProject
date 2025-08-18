@@ -265,3 +265,5 @@ C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\Signal
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\ref\SignalRWebUI.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\QRCoder.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\zxing.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\ZXing.Windows.Compatibility.dll
