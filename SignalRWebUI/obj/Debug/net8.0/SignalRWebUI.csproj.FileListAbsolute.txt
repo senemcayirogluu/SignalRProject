@@ -264,3 +264,4 @@ C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\refint
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.pdb
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\ref\SignalRWebUI.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\QRCoder.dll
