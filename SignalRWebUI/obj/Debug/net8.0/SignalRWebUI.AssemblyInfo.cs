@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalRWebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+370a5a9549105b7ca2f991edb6d8060115170bf2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5463a900dfa7180896c2d69948675d5d384d9197")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalRWebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalRWebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
