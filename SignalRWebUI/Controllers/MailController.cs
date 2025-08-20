@@ -25,7 +25,7 @@ namespace SignalRWebUI.Controllers
 			mimeMessage.To.Add(mailboxAddressTo);
 
 			var bodybuilder = new BodyBuilder();
-			bodybuilder.TextBody = createMailDto.Body;
+			bodybuilder.HtmlBody = createMailDto.Body;
 			mimeMessage.Body = bodybuilder.ToMessageBody();
 
 			mimeMessage.Subject = createMailDto.Subject;
