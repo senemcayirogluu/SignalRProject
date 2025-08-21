@@ -1026,6 +1026,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalRApi.Controllers.ProductController",
+    "Method": "ProductPriceBySteakBurger",
+    "RelativePath": "api/Product/ProductPriceBySteakBurger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRApi.Controllers.SliderController",
     "Method": "SliderList",
     "RelativePath": "api/Slider",
