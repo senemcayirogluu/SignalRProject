@@ -90,6 +90,9 @@ namespace SignalRApi.Hubs
 			var value3 = _menuTableService.TMenuTableCount();
 			await Clients.All.SendAsync("ReceiveMenuTableCount", value3);
 
+			var value5 = _productService.TProductPriceAverage();
+			await Clients.All.SendAsync("ReceiveProductPriceAverage", value5);
+
 		}
 
 		public async Task GetBookingList()
