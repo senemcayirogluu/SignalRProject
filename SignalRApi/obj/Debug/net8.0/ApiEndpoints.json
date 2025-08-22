@@ -947,6 +947,16 @@
   },
   {
     "ContainingType": "SignalRApi.Controllers.ProductController",
+    "Method": "AvgProductPriceByDrink",
+    "RelativePath": "api/Product/AvgProductPriceByDrink",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.ProductController",
     "Method": "AvgProductPriceByHamburger",
     "RelativePath": "api/Product/AvgProductPriceByHamburger",
     "HttpMethod": "GET",
@@ -1029,6 +1039,26 @@
     "ContainingType": "SignalRApi.Controllers.ProductController",
     "Method": "ProductPriceBySteakBurger",
     "RelativePath": "api/Product/ProductPriceBySteakBurger",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.ProductController",
+    "Method": "TotalPriceByCategoryDrink",
+    "RelativePath": "api/Product/TotalPriceByCategoryDrink",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.ProductController",
+    "Method": "TotalPriceByCategorySalad",
+    "RelativePath": "api/Product/TotalPriceByCategorySalad",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

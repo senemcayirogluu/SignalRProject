@@ -108,8 +108,8 @@ namespace SignalRApi.Hubs
 			var value10 = _productService.TProductPriceBySteakBurger();
 			await Clients.All.SendAsync("ReceiveProductPriceBySteakBurger", value10);
 
-			var value11 = 30;
-			await Clients.All.SendAsync("ReceiveStaticValue", value11);
+			var value11 = _productService.TAvgProductPriceByDrink();
+			await Clients.All.SendAsync("ReceiveAvgProductPriceByDrink", value11);
 		}
 
 		public async Task GetBookingList()

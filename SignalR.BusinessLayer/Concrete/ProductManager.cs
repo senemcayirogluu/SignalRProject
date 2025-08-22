@@ -87,5 +87,20 @@ namespace SignalR.BusinessLayer.Concrete
 		{
 			return _productDal.ProductPriceBySteakBurger();
 		}
+
+		public decimal TAvgProductPriceByDrink()
+		{
+			return _productDal.AvgProductPriceByDrink();
+		}
+
+		public decimal TTotalPriceByCategoryDrink()
+		{
+			return _productDal.TotalPriceByCategoryDrink();
+		}
+
+		public decimal TTotalPriceByCategorySalad()
+		{
+			return _productDal.TotalPriceByCategorySalad();
+		}
 	}
 }
