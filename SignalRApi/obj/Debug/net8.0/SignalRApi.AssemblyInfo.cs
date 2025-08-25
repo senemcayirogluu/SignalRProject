@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalRApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad1106161d0c42101eea5f9c16721a2a3647a8bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+973195e45fb20cbfc0a3d5007c06771e1c2dfff2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalRApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalRApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
