@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalR.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d06809a0b731afca58e817f95c4e624227611fa1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7067b3a3a307f978068fdc8942278ab8fc023ad4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalR.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalR.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

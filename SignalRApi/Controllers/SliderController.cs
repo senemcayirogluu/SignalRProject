@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SignalR.BusinessLayer.Abstract;
-using SignalR.DtoLayer.DiscountDto;
-using SignalR.DtoLayer.FeatureDto;
 using SignalR.DtoLayer.SliderDto;
 using SignalR.EntityLayer.Entities;
 

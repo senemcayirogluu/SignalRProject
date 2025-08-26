@@ -1553,6 +1553,18 @@
         }
       }
     },
+    "/api/Product/GetLastProducts": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Slider": {
       "get": {
         "tags": [

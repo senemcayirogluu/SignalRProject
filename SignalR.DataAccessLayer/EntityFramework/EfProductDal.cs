@@ -91,5 +91,11 @@ namespace SignalR.DataAccessLayer.EntityFramework
 			using var context = new SignalRContext();
 			return context.Products.Where(p => p.Category.CategoryName == "Salata").Select(p => p.Price).Sum();
 		}
+
+		public List<Product> GetLastProducts()
+		{
+			using var context = new SignalRContext();
+			return context.Products.OrderByDescending(p => p.ProductID).Take(6).ToList();
+		}
 	}
 }

@@ -154,5 +154,12 @@ namespace SignalRApi.Controllers
 			var value = _productService.TGetById(id);
 			return Ok(_mapper.Map<GetProductDto>(value));
 		}
+
+		[HttpGet("GetLastProducts")]
+		public IActionResult GetLastProducts()
+		{
+			var values = _productService.TGetLastProducts();
+			return Ok(values);
+		}
 	}
 }
