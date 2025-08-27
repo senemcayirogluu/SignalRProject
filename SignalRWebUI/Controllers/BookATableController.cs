@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using SignalRWebUI.Dtos.BookingDtos;
+using SignalRWebUI.Dtos.ValidationDtos;
 using System.Net.Http;
 using System.Text;
 
@@ -53,8 +54,17 @@ namespace SignalRWebUI.Controllers
 			else
 			{
 				var errorContent = await responseMessage.Content.ReadAsStringAsync();
-				ModelState.AddModelError(string.Empty, errorContent);
-				return View();
+				var errors = JsonConvert.DeserializeObject<List<ApiValidationErrorDto>>(errorContent);
+
+				if (errors != null)
+				{
+					foreach (var error in errors)
+					{
+						ModelState.AddModelError(error.PropertyName, error.ErrorMessage);
+					}
+				}
+
+				return View(createBookingDto);
 			}
 		}
 	}

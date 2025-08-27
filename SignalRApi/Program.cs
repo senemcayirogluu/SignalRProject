@@ -84,6 +84,12 @@ builder.Services.AddValidatorsFromAssemblyContaining<CreateBookingValidation>();
 builder.Services.AddControllersWithViews()
 	.AddJsonOptions(options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
+builder.Services.AddControllers()
+	.ConfigureApiBehaviorOptions(options =>
+	{
+		options.SuppressModelStateInvalidFilter = true;
+	});
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

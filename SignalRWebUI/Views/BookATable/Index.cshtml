@@ -30,15 +30,15 @@
 								<span asp-validation-for="Name" class="text-danger"></span>
                             </div>
                             <div>
-                                <input type="text" class="form-control" placeholder="Telefon Numaranız" asp-for="Phone"/>
+                                <input type="text" class="form-control mt-3" placeholder="Telefon Numaranız" asp-for="Phone"/>
                                 <span asp-validation-for="Phone" class="text-danger"></span>
                             </div>
                             <div>
-                                <input type="email" class="form-control" placeholder="Email Adresiniz" asp-for="Mail"/>
+                                <input type="email" class="form-control mt-3" placeholder="Email Adresiniz" asp-for="Mail" />
                                 <span asp-validation-for="Mail" class="text-danger"></span>
                             </div>
                             <div>
-                                <select class="form-control nice-select wide" asp-for="PersonCount">
+                                <select class="form-control nice-select wide mt-3" asp-for="PersonCount">
                                     <option value="" disabled selected>
                                         Kaç kişilik?
                                     </option>
@@ -64,7 +64,7 @@
                                 <span asp-validation-for="PersonCount" class="text-danger"></span>
                             </div>
                             <div>
-                                <input type="date" class="form-control" asp-for="Date">
+                                <input type="date" class="form-control mt-3" asp-for="Date">
                                 <span asp-validation-for="Date" class="text-danger"></span>
                             </div>
                             <div class="btn_box">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="map_container ">
+                    <div class="map_container">
                         <iframe src="@ViewBag.location" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
