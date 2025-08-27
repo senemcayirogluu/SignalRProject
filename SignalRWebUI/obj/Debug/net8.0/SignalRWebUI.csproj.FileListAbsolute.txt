@@ -1,9 +1,13 @@
-C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.exe
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\appsettings.json
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\libman.json
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.staticwebassets.runtime.json
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.staticwebassets.endpoints.json
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.exe
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.deps.json
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.runtimeconfig.json
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.pdb
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\Humanizer.dll
@@ -265,9 +269,5 @@ C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\Signal
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\refint\SignalRWebUI.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.pdb
-C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.deps.json
-C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.runtimeconfig.json
-C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.dll
-C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\bin\Debug\net8.0\SignalRWebUI.pdb
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\SignalRWebUI.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRWebUI\obj\Debug\net8.0\ref\SignalRWebUI.dll

@@ -10,6 +10,9 @@ C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\SignalRA
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\Humanizer.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
@@ -267,6 +270,3 @@ C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\obj\Debug\net8.0\refint\S
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\obj\Debug\net8.0\SignalRApi.pdb
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\obj\Debug\net8.0\SignalRApi.genruntimeconfig.cache
 C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\obj\Debug\net8.0\ref\SignalRApi.dll
-C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\FluentValidation.dll
-C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
-C:\Users\LENOVO\source\repos\SignalRProject\SignalRApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
