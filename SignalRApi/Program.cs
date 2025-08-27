@@ -1,6 +1,8 @@
+using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 using SignalR.BusinessLayer.Abstract;
 using SignalR.BusinessLayer.Concrete;
+using SignalR.BusinessLayer.Validation.BookingValidations;
 using SignalR.DataAccessLayer.Abstract;
 using SignalR.DataAccessLayer.Concrete;
 using SignalR.DataAccessLayer.EntityFramework;
@@ -76,6 +78,8 @@ builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
 
 builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
+
+builder.Services.AddValidatorsFromAssemblyContaining<CreateBookingValidation>();
 
 builder.Services.AddControllersWithViews()
 	.AddJsonOptions(options => options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
