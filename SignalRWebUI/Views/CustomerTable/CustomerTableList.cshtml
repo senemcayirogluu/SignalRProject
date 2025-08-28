@@ -90,9 +90,19 @@
 				}
 				<div class="col-md-3 mb-4">
 					<div class="widget" style="background-color: @color">
-						<div class="widget-icon">
-							<a href="/Default/Index/"><i class="fas fa-chair" style="color: @color"></i></a>
-						</div>
+						@if (item.Status == true)
+						{
+							<div class="widget-icon">
+								<i class="fas fa-chair" style="color: @color"></i>
+							</div>
+						}
+						else
+						{
+							<div class="widget-icon">
+								<a href="/Menu/Index/@item.MenuTableID"><i class="fas fa-chair" style="color: @color"></i></a>
+							</div>
+						}
+						
 						<div class="widget-text">
 							<h3>@item.Name</h3>
 							<p>@status</p>
