@@ -6,5 +6,9 @@ namespace SignalRWebUI.Dtos.BasketDtos
 	{
 		[JsonProperty("productID")]
 		public int ProductID { get; set; }
+
+		[JsonProperty("menuTableID")]
+		public int MenuTableID { get; set; }
+
 	}
 }

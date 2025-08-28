@@ -46,7 +46,7 @@
                                         <h6>
                                                 @item.Price₺
                                         </h6>
-                                        <a href="#" onclick="showproductid(@item.ProductID, `@item.ProductName`, @item.Price)">
+                                            <a href="#" onclick="showproductid(@item.ProductID, `@item.ProductName`, @item.Price.ToString().Replace(",", "."), @ViewBag.selectedTable)">
                                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
                                             <g>
                                             <g>
@@ -110,7 +110,7 @@
             </div>
             <div class="btn-box">
                 <a href="/Baskets/Index/">
-                    Sepete Git
+                    Sepete Git(@ViewBag.selectedTable)
                 </a>
             </div>
         </div>
@@ -123,7 +123,7 @@
     @await Component.InvokeAsync("_UILayoutScriptComponentPartial")
 
     <script>
-        function showproductid(id, name, price) {
+        function showproductid(id, name, price, menuTableId) {
            var productName = name;
 
            $.ajax ({
@@ -133,9 +133,9 @@
                    Price: price,
                    Count:1,
                    TotalPrice: price,
-                   MenuTableID: 4
+                   MenuTableID: menuTableId,
                }),
-			   url: "/Menu/AddBasket",
+               url: "/Menu/AddBasket",
                contentType: 'application/json',
                success: function () {
                       Swal.fire({

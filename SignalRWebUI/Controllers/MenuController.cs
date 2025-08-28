@@ -13,8 +13,9 @@ namespace SignalRWebUI.Controllers
 		{
 			_httpClientFactory = httpClientFactory;
 		}
-		public async Task<IActionResult> Index()
+		public async Task<IActionResult> Index(int id)
 		{
+			ViewBag.selectedTable = id;
 			var client = _httpClientFactory.CreateClient();
 			var responseMessage = await client.GetAsync("https://localhost:7122/api/Product/ProductListWithCategory");
 			if (responseMessage.IsSuccessStatusCode)
@@ -30,6 +31,11 @@ namespace SignalRWebUI.Controllers
 		[HttpPost]
 		public async Task<IActionResult> AddBasket([FromBody] CreateBasketDto createBasketDto)
 		{
+			if(createBasketDto.MenuTableID == 0)
+			{
+				return BadRequest("menuTableId 0 geliyor.");
+			}
+
 			using var client = _httpClientFactory.CreateClient();
 			var jsonData = JsonConvert.SerializeObject(createBasketDto);
 			var stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
@@ -37,7 +43,6 @@ namespace SignalRWebUI.Controllers
 			if (responseMessage.IsSuccessStatusCode)
 			{
 				return RedirectToAction("Index");
-
 			}
 			return Json(createBasketDto);
 		}
