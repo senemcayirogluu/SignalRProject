@@ -57,7 +57,7 @@ namespace SignalRApi.Controllers
 				Count = 1,
 				TotalPrice = 0,
 				ProductID = createBasketDto.ProductID,
-				MenuTableID = 4,
+				//MenuTableID = 4,
 			});
 			return Ok();
 
