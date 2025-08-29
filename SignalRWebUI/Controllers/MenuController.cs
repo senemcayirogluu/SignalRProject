@@ -40,6 +40,10 @@ namespace SignalRWebUI.Controllers
 			var jsonData = JsonConvert.SerializeObject(createBasketDto);
 			var stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
 			var responseMessage = await client.PostAsync("https://localhost:7122/api/Baskets", stringContent);
+
+			var client2 = _httpClientFactory.CreateClient();
+			await client2.GetAsync($"https://localhost:7122/api/MenuTable/TableStatusChangeToTrue?id= " + createBasketDto.MenuTableID);
+
 			if (responseMessage.IsSuccessStatusCode)
 			{
 				return RedirectToAction("Index");
