@@ -20,5 +20,21 @@ namespace SignalR.DataAccessLayer.EntityFramework
 			using var context = new SignalRContext();
 			return context.MenuTables.Count();
 		}
+
+		public void TableStatusChangeToFalse(int id)
+		{
+			using var context = new SignalRContext();
+			var values = context.MenuTables.Find(id);
+			values.Status = false;
+			context.SaveChanges();
+		}
+
+		public void TableStatusChangeToTrue(int id)
+		{
+			using var context = new SignalRContext();
+			var values = context.MenuTables.Find(id);
+			values.Status = true;
+			context.SaveChanges();
+		}
 	}
 }

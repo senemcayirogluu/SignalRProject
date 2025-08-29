@@ -43,6 +43,16 @@ namespace SignalR.BusinessLayer.Concrete
 			return _menuTableDal.MenuTableCount();
 		}
 
+		public void TTableStatusChangeToFalse(int id)
+		{
+			 _menuTableDal.TableStatusChangeToFalse(id);
+		}
+
+		public void TTableStatusChangeToTrue(int id)
+		{
+			_menuTableDal.TableStatusChangeToTrue(id);
+		}
+
 		public void TUpdate(MenuTable entity)
 		{
 			_menuTableDal.Update(entity);

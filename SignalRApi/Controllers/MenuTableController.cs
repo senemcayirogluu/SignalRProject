@@ -64,5 +64,20 @@ namespace SignalRApi.Controllers
 			var value = _menuTableService.TGetById(id);
 			return Ok(_mapper.Map<GetMenuTableDto>(value));
 		}
+
+		[HttpGet("TableStatusChangeToTrue")]
+		public IActionResult TableStatusChangeToTrue(int id)
+		{
+			_menuTableService.TTableStatusChangeToTrue(id);
+			return Ok("Masa durumu dolu olarak değiştirildi");
+		}
+
+		[HttpGet("TableStatusChangeToFalse")]
+		public IActionResult TableStatusChangeToFalse(int id)
+		{
+			_menuTableService.TTableStatusChangeToFalse(id);
+			return Ok("Masa durumu boş olarak değiştirildi");
+		}
+
 	}
 }

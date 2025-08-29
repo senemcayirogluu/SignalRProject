@@ -937,6 +937,50 @@
         }
       }
     },
+    "/api/MenuTable/TableStatusChangeToTrue": {
+      "get": {
+        "tags": [
+          "MenuTable"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/MenuTable/TableStatusChangeToFalse": {
+      "get": {
+        "tags": [
+          "MenuTable"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Message": {
       "get": {
         "tags": [

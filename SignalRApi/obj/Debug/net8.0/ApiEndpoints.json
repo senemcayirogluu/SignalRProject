@@ -622,6 +622,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SignalRApi.Controllers.MenuTableController",
+    "Method": "TableStatusChangeToFalse",
+    "RelativePath": "api/MenuTable/TableStatusChangeToFalse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRApi.Controllers.MenuTableController",
+    "Method": "TableStatusChangeToTrue",
+    "RelativePath": "api/MenuTable/TableStatusChangeToTrue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SignalRApi.Controllers.MessageController",
     "Method": "MessageList",
     "RelativePath": "api/Message",
