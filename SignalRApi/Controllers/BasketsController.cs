@@ -55,7 +55,7 @@ namespace SignalRApi.Controllers
 			{
 				Price = product.Price,
 				Count = 1,
-				TotalPrice = createBasketDto.TotalPrice,
+				TotalPrice = product.Price * 1,
 				ProductID = createBasketDto.ProductID,
 				MenuTableID = createBasketDto.MenuTableID,
 			});
